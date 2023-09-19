@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <unistd.h>
 /**
  *_puts - prints a string
  *@str : pointer to the string
