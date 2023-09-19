@@ -8,21 +8,28 @@
  */
 void print_array(int *a, int n)
 {
-    int i;
+int c;
+int t[799];
+c = 1;
 
-    for (i = 0; i < n; i++)
-    {
-        /* Print the current element */
-        _putchar('0' + a[i]);
+while (*a != '\0')
+{
+t[c] = *a;
+c++;
+a++;
+}
+a--;
+c = 1;
 
-        /* If it's not the last element, print a comma and a space */
-        if (i < n - 1)
-        {
-            _putchar(',');
-            _putchar(' ');
-        }
-    }
+while (c <= n)
+{
+if (i != n)
+printf("%d, ", t[c]);
+else
+printf("%d", t[c]);
 
-    /* Print a new line at the end */
-    _putchar('\n');
+c++;
+}
+
+printf("\n");
 }
