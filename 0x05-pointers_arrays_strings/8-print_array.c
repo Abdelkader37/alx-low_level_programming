@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -23,7 +23,7 @@ c = 1;
 
 while (c <= n)
 {
-if (i != n)
+if (c != n)
 printf("%d, ", t[c]);
 else
 printf("%d", t[c]);
