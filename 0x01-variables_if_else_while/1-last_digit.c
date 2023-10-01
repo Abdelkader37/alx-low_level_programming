@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  *main - starting point.
- *Discription: print print the last digit of the 
+ *Discription: print print the last digit of te
  *number stored in the variable n
  *
  *Return: return to 0.
