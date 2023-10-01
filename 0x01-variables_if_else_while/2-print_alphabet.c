@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <time.h>
+
   /**
    * Description: print alphabet
    *
@@ -18,3 +18,4 @@ int main ()
            putchar ('\n');
             return (0) ;
 }
+
