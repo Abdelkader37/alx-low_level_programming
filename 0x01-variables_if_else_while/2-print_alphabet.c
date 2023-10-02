@@ -2,11 +2,11 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-  /**
-   * Description: print alphabet
-   *
-   * Return: Returns 0 always.
-   */
+/**
+ * Description: print alphabet
+ *
+ * Return: Returns 0 always.
+ */
 
 int main ()
 {
@@ -18,6 +18,6 @@ int main ()
             n++ ;
            }
            putchar ('\n');
-            return (0) ;
+            return (0);
 }
 
