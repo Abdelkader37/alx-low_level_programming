@@ -14,17 +14,12 @@ int main(void)
   char n = 'a', m = 'A';
 	
 
-	while (n <= 'z')
+	while (n <= 'Z')
 		{
 		putchar (n);
 		n++;
+	     
 		}
-
-	while (n <= 'Z')
-	  {
-	    putchar (n);
-	    n++;
-	  }
 	putchar ('\n');
 	return (0);
 }
