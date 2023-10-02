@@ -18,12 +18,12 @@ int main(void)
 		putchar (n);
 		n++;
 		}
-	char m = 'A';
+	char n = 'A';
 
-	while (m <= 'Z')
+	while (n <= 'Z')
 	  {
-	    putchar (m);
-	    m++;
+	    putchar (n);
+	    n++;
 	  }
 	putchar ('\n');
 	return (0);
