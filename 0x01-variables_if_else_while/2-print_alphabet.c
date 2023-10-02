@@ -3,22 +3,22 @@
 #include <stdlib.h>
 
 /**
- * main - starting point 
- * Description: print alphabet
+ *main - starting point
+ *Description: print alphabet
  *
- * Return: Returns 0 always.
+ *Return: Returns 0 always.
  */
 
 int main(void)
 {
-  char n = 'a' ;
+	char n = 'a' ;
 
-  while (n >= 'a' && n <= 'z')
-    {
-      putchar (n);
-      n++ ;
-    }
-  putchar ('\n');
-  return (0);
+	while (n >= 'a' && n <= 'z')
+		{
+		putchar (n);
+		n++ ;
+		}
+		putchar ('\n');
+	return (0);
 }
 
