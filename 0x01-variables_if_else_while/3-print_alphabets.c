@@ -1,26 +1,21 @@
 #include <stdio.h>
-#include <unistd.h>
-#include <stdlib.h>
 
 /**
- *main - starting point
- *Description: print alphabet
+ * main - Prints the alphabet.
  *
- *Return: Returns 0 always.
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-  char n = 'a', m = 'A';
-	
+char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i;
 
-	while (n <= 'Z')
-		{
-		putchar (n);
-		n++;
-	     
-		}
-	putchar ('\n');
+	for (i = 0; i < 52; i++)
+	{
+		putchar(alp[i]);
+	}
+	putchar('\n');
 	return (0);
 }
+
 
