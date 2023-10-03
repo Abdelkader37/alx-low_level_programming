@@ -1,20 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
-/**
-*main - start point
-*Discription: prent alph expect e and q
-*return :always returne to 0
-**/
+#include <string.h>
 
+/**
+ * main - Prints the alphabet without q and e.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char n = 'a';
-	while (n <= 'z' && n != 'q' && n != 'e')
-	{
-	putchar (n);
-	n++;
-	}
-	putchar ('\n');
+	int i;
 
+	for (i = 97; i < 123; i++)
+	{
+		if (i != 101 && i != 113)
+		{
+			putchar(i);
+		}
+	}
+	putchar('\n');
 	return (0);
 }
+
+
