@@ -9,17 +9,16 @@
  */
 int main(void)
 {
-	int i;
+	char n = 'a' ;
 
-	for (i = 97; i < 123; i++)
+	for (n = 'a'; n < 'z'; n++)
 	{
-		if (i != 101 && i != 113)
+		if (n != 'e' && n != 'q')
 		{
-			putchar(i);
+			putchar(n);
 		}
 	}
 	putchar('\n');
 	return (0);
 }
-
 
