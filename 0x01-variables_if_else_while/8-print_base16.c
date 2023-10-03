@@ -14,7 +14,7 @@ int main(void)
 	int n = 0;
 	char m = 'a';
 
-	while (n <=10)
+	while (n < 10)
 	{
 		putchar(48 + n);
 		n++;
