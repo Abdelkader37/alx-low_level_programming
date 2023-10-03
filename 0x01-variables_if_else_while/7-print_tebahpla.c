@@ -5,7 +5,7 @@
 /**
  * main -start point
  *
- * Description: USE PUTCHAR TO PRINT ALPHABETS REVERSED 
+ * Description: USE PUTCHAR TO PRINT ALPHABETS REVERSED
  *
  * Return: Always 0 (Success)
  */
