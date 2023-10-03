@@ -11,20 +11,20 @@
  */
 int main(void)
 {
-        int n = 0;
-        char m = 'a';
+	int n = 0;
+	char m = 'a';
 
-        while (n <=10)
-        {
-        putchar(48 + n);
-        n++;
-        }
-         while (m < 'g')
-        {
-        putchar(m);
-        m++;
-        }
-        putchar('\n');
-        return (0);
+	while (n <=10)
+	{
+		putchar(48 + n);
+		n++;
+	}
+	while (m < 'g')
+	{
+		putchar(m);
+		m++;
+	}
+	putchar('\n');
+	return (0);
 }
 
