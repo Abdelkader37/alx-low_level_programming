@@ -9,9 +9,9 @@
  */
 int main(void)
 {
-	char n = 'a' ;
+	char n = 'a';
 
-	for (n = 'a'; n < 'z'; n++)
+	for (n = 'a'; n <= 'z'; n++)
 	{
 		if (n != 'e' && n != 'q')
 		{
