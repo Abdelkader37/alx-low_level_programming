@@ -6,7 +6,7 @@
 *return :always returne to 0
 **/
 
-int main (void)
+int main(void)
 {
 	char n = 'a';
 	while (n <= 'z' && n != 'q' && n != 'e')
@@ -14,7 +14,7 @@ int main (void)
 	putchar (n);
 	n++;
 	}
-	putchar (\n);
+	putchar ('\n');
 
 	return (0);
 }
