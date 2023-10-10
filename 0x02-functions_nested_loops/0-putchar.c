@@ -2,7 +2,7 @@
 /**
 *main-print _putchar
 *discription: we print _putchar
-*returne : returne to 0
+*return : returne to 0
 **/
 int main()
 {
@@ -14,6 +14,7 @@ int main()
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
 
